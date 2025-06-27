@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9d282c5625bb724330be3ead2be360ae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9d282c5625bb724330be3ead2be360ae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9d282c5625bb724330be3ead2be360ae = L.map(
+                "map_9d282c5625bb724330be3ead2be360ae",
+                {
+                    center: [42.3, -71.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_752d8f8e0fa1941e814c9d8e8ed359e4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_752d8f8e0fa1941e814c9d8e8ed359e4.addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var marker_1199e65516c15713793366e866257bd4 = L.marker(
+                [42.335117, -71.105721],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_72a51ba553e61ca89dff8b9842a82783 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12e034021c9fb2f191b67a47d07458b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ca14be2312bb4bd5e7541aea124235a = $(`<div id="html_8ca14be2312bb4bd5e7541aea124235a" style="width: 100.0%; height: 100.0%;"><b>Brigham and Womens Hospital</b><br>15 Francis Street, Boston, MA<br><br><b>Surgeons:</b><br>BWH Thoracic Faculty</div>`)[0];
+                popup_12e034021c9fb2f191b67a47d07458b1.setContent(html_8ca14be2312bb4bd5e7541aea124235a);
+            
+        
+
+        marker_1199e65516c15713793366e866257bd4.bindPopup(popup_12e034021c9fb2f191b67a47d07458b1)
+        ;
+
+        
+    
+    
+                marker_1199e65516c15713793366e866257bd4.setIcon(icon_72a51ba553e61ca89dff8b9842a82783);
+            
+    
+            var marker_5f5fce5c78f5bbbeec545d3b4fee2adc = L.marker(
+                [42.17569, -70.954071],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_0e9c5a17b39088f887cc69b019fc618b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2304c464e5aea8f843335875745d080 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a35d7a0fead45726cb16a8e1300b7eb = $(`<div id="html_6a35d7a0fead45726cb16a8e1300b7eb" style="width: 100.0%; height: 100.0%;"><b>South Shore Hospital</b><br>55 Fogg Rd, South Weymouth, MA 02190<br><br><b>Surgeons:</b><br>Chris Ducko, MD, Michael Jaklitsch, MD, Jon Wee, MD, Hassan Khalil, MD, Antonio Coppolino, MD</div>`)[0];
+                popup_c2304c464e5aea8f843335875745d080.setContent(html_6a35d7a0fead45726cb16a8e1300b7eb);
+            
+        
+
+        marker_5f5fce5c78f5bbbeec545d3b4fee2adc.bindPopup(popup_c2304c464e5aea8f843335875745d080)
+        ;
+
+        
+    
+    
+                marker_5f5fce5c78f5bbbeec545d3b4fee2adc.setIcon(icon_0e9c5a17b39088f887cc69b019fc618b);
+            
+    
+            var marker_937bc9b8d4f64aaa4614b4a77f42b82a = L.marker(
+                [41.705669, -71.47821],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_b34f0e84684dffe5521d01e1817654f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8db4658d484ac7d60bd9713beaf2f38c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_39d6f677838c5bcee1cbf918eda0e2b4 = $(`<div id="html_39d6f677838c5bcee1cbf918eda0e2b4" style="width: 100.0%; height: 100.0%;"><b>Kent Hospital, Care New England</b><br>455 Toll Gate Rd, Warwick, RI 02886<br><br><b>Surgeons:</b><br>Ciaran McNamee, MD, Matt Pommerening, MD, Ealaf Shemmeri, MD, Desiree Steimer, MD</div>`)[0];
+                popup_8db4658d484ac7d60bd9713beaf2f38c.setContent(html_39d6f677838c5bcee1cbf918eda0e2b4);
+            
+        
+
+        marker_937bc9b8d4f64aaa4614b4a77f42b82a.bindPopup(popup_8db4658d484ac7d60bd9713beaf2f38c)
+        ;
+
+        
+    
+    
+                marker_937bc9b8d4f64aaa4614b4a77f42b82a.setIcon(icon_b34f0e84684dffe5521d01e1817654f4);
+            
+    
+            var marker_ef012f3e88f5cb382aa10af2617b228d = L.marker(
+                [42.1332058, -71.5286554],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_788870560ea2a7e03980a5a074da3cc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e15246a215a45598b07a4c69bb8a7c5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7a12755acf87b5a8fbe725abe0d78e18 = $(`<div id="html_7a12755acf87b5a8fbe725abe0d78e18" style="width: 100.0%; height: 100.0%;"><b>Milford Regional Medical Center</b><br>14 Prospect St, Milford, MA 01757<br><br><b>Surgeons:</b><br>Matt Rochefort, MD, John Wain, MD</div>`)[0];
+                popup_6e15246a215a45598b07a4c69bb8a7c5.setContent(html_7a12755acf87b5a8fbe725abe0d78e18);
+            
+        
+
+        marker_ef012f3e88f5cb382aa10af2617b228d.bindPopup(popup_6e15246a215a45598b07a4c69bb8a7c5)
+        ;
+
+        
+    
+    
+                marker_ef012f3e88f5cb382aa10af2617b228d.setIcon(icon_788870560ea2a7e03980a5a074da3cc5);
+            
+    
+            var marker_7e2cb65e72f1ae3ef5433a422012c5d6 = L.marker(
+                [42.2742444, -71.1718538],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_b4734246ae1d17025104bb8ab825c029 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f17a2e9c1e3867e99fd7a73ea96e940 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_afbc94c1cf8d38ab0e30ba81b67de69c = $(`<div id="html_afbc94c1cf8d38ab0e30ba81b67de69c" style="width: 100.0%; height: 100.0%;"><b>West Roxbury VA Medical Center</b><br>1400 Vfw Pkwy, West Roxbury, MA 02132<br><br><b>Surgeons:</b><br>Dan Wiener, MD, Fatima Wilder, MD</div>`)[0];
+                popup_4f17a2e9c1e3867e99fd7a73ea96e940.setContent(html_afbc94c1cf8d38ab0e30ba81b67de69c);
+            
+        
+
+        marker_7e2cb65e72f1ae3ef5433a422012c5d6.bindPopup(popup_4f17a2e9c1e3867e99fd7a73ea96e940)
+        ;
+
+        
+    
+    
+                marker_7e2cb65e72f1ae3ef5433a422012c5d6.setIcon(icon_b4734246ae1d17025104bb8ab825c029);
+            
+    
+            var marker_3944f7ba44399e07820d8823ef66217c = L.marker(
+                [42.0926827, -71.2661864],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_00f83cfe9013cf585eb9771ca8949c48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c9a76ad051ff232e95d2c7ae655f052 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_058a0bb68037b1cd9d52b0e51ab859ed = $(`<div id="html_058a0bb68037b1cd9d52b0e51ab859ed" style="width: 100.0%; height: 100.0%;"><b>BWH Multi-D Clinic, Patriots Place</b><br>20 Patriot Pl, Foxboro, MA 02035<br><br><b>Surgeons:</b><br>Hassan Khalil, MD, John Wain, MD, Fatima Wilder, MD, Ealaf Shemmeri, MD, Paula Ugalde, MD</div>`)[0];
+                popup_3c9a76ad051ff232e95d2c7ae655f052.setContent(html_058a0bb68037b1cd9d52b0e51ab859ed);
+            
+        
+
+        marker_3944f7ba44399e07820d8823ef66217c.bindPopup(popup_3c9a76ad051ff232e95d2c7ae655f052)
+        ;
+
+        
+    
+    
+                marker_3944f7ba44399e07820d8823ef66217c.setIcon(icon_00f83cfe9013cf585eb9771ca8949c48);
+            
+    
+            var marker_a9ade803b942487f74ebf684dc9b9b49 = L.marker(
+                [42.3187204, -71.180319],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_06a3190b0deb7f76ee7166ce20cfa74c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d3b5cdf58dc32116c5231b73b73c24d3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_48d4037b2fd2cd4fef2175bd770291a4 = $(`<div id="html_48d4037b2fd2cd4fef2175bd770291a4" style="width: 100.0%; height: 100.0%;"><b>DFCI, Chestnut Hill</b><br>300 Boylston Street, Chestnut Hill (Newton), MA 02467<br><br><b>Surgeons:</b><br>Paula Ugalde, MD, Matt Pommerening, MD, John Wain, MD</div>`)[0];
+                popup_d3b5cdf58dc32116c5231b73b73c24d3.setContent(html_48d4037b2fd2cd4fef2175bd770291a4);
+            
+        
+
+        marker_a9ade803b942487f74ebf684dc9b9b49.bindPopup(popup_d3b5cdf58dc32116c5231b73b73c24d3)
+        ;
+
+        
+    
+    
+                marker_a9ade803b942487f74ebf684dc9b9b49.setIcon(icon_06a3190b0deb7f76ee7166ce20cfa74c);
+            
+    
+            var marker_56cbbb4b7200f7a9202b5b4c71257f7b = L.marker(
+                [42.195, -70.9432],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_286bd5d5ae5f6654dfbd2b7a8d0917c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_777f091dd6579a5387a1320178101faa = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f73304e129764f8831a57a75feebe759 = $(`<div id="html_f73304e129764f8831a57a75feebe759" style="width: 100.0%; height: 100.0%;"><b>BWH Multi-D Clinic</b><br>51 Performance Dr, Weymouth, MA 02189<br><br><b>Surgeons:</b><br>Hassan Khalil, MD, Chris Ducko, MD, Jon Wee, MD</div>`)[0];
+                popup_777f091dd6579a5387a1320178101faa.setContent(html_f73304e129764f8831a57a75feebe759);
+            
+        
+
+        marker_56cbbb4b7200f7a9202b5b4c71257f7b.bindPopup(popup_777f091dd6579a5387a1320178101faa)
+        ;
+
+        
+    
+    
+                marker_56cbbb4b7200f7a9202b5b4c71257f7b.setIcon(icon_286bd5d5ae5f6654dfbd2b7a8d0917c3);
+            
+    
+            var marker_068b4705971dc41175bb865b092809d0 = L.marker(
+                [42.3311005, -71.2456038],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_86b440d1f8d89111611b2a011c13ef8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fa251b7666c0672edf31f955ea49bfe4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f0e51e841ba6f70fd37db30ee9a88d85 = $(`<div id="html_f0e51e841ba6f70fd37db30ee9a88d85" style="width: 100.0%; height: 100.0%;"><b>Newton Wellsley Hospital</b><br>2014 Washington St, Newton, MA 02462<br><br><b>Surgeons:</b><br>Hugh Auchincloss, MD, Christina Costantino, MD</div>`)[0];
+                popup_fa251b7666c0672edf31f955ea49bfe4.setContent(html_f0e51e841ba6f70fd37db30ee9a88d85);
+            
+        
+
+        marker_068b4705971dc41175bb865b092809d0.bindPopup(popup_fa251b7666c0672edf31f955ea49bfe4)
+        ;
+
+        
+    
+    
+                marker_068b4705971dc41175bb865b092809d0.setIcon(icon_86b440d1f8d89111611b2a011c13ef8a);
+            
+    
+            var marker_c7015b604593e2719d81f6391631b32b = L.marker(
+                [42.5115005, -70.9069641],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_808cb5f58f9c43716bea32a820430990 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0f21a8ef68e4580bfb17decb594339a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b8f648f7e1b306281a4bb8bf7e68cb6b = $(`<div id="html_b8f648f7e1b306281a4bb8bf7e68cb6b" style="width: 100.0%; height: 100.0%;"><b>Salem Hospital</b><br>81 Highland Ave, Salem, MA 01970<br><br><b>Surgeons:</b><br>Hugh Auchincloss, MD, Christina Costantino, MD</div>`)[0];
+                popup_f0f21a8ef68e4580bfb17decb594339a.setContent(html_b8f648f7e1b306281a4bb8bf7e68cb6b);
+            
+        
+
+        marker_c7015b604593e2719d81f6391631b32b.bindPopup(popup_f0f21a8ef68e4580bfb17decb594339a)
+        ;
+
+        
+    
+    
+                marker_c7015b604593e2719d81f6391631b32b.setIcon(icon_808cb5f58f9c43716bea32a820430990);
+            
+    
+            var marker_ff254fea3e4c28ac51b815e23959a1f0 = L.marker(
+                [43.2134315, -70.8737039],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_a3a43091cccbc93b4c1ca16bbb64195b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1ef0bccf519b537d36f0702f74735317 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1664ffb08c2a9554e68ca712d6e62344 = $(`<div id="html_1664ffb08c2a9554e68ca712d6e62344" style="width: 100.0%; height: 100.0%;"><b>Wentworth Douglass Hospital</b><br>789 Central Ave, Dover, NH 03820<br><br><b>Surgeons:</b><br>James Allan, MD, Jeffrey Yang, MD, Paul Furlow, MD</div>`)[0];
+                popup_1ef0bccf519b537d36f0702f74735317.setContent(html_1664ffb08c2a9554e68ca712d6e62344);
+            
+        
+
+        marker_ff254fea3e4c28ac51b815e23959a1f0.bindPopup(popup_1ef0bccf519b537d36f0702f74735317)
+        ;
+
+        
+    
+    
+                marker_ff254fea3e4c28ac51b815e23959a1f0.setIcon(icon_a3a43091cccbc93b4c1ca16bbb64195b);
+            
+    
+            var marker_7d130aae16ef881b7e5829d4352b6b46 = L.marker(
+                [42.330421, -72.6533202],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_bf78a2acf2bcc58342dc3cb828a659bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69422a2939a1dc2f0f53935d5ed5d42c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f5dc59442d3ac37afe15f9c858d8cbb4 = $(`<div id="html_f5dc59442d3ac37afe15f9c858d8cbb4" style="width: 100.0%; height: 100.0%;"><b>Cooley Dickenson Hospital</b><br>30 Locust St, Northampton, MA 01060<br><br><b>Surgeons:</b><br>Michael Lanuti, MD</div>`)[0];
+                popup_69422a2939a1dc2f0f53935d5ed5d42c.setContent(html_f5dc59442d3ac37afe15f9c858d8cbb4);
+            
+        
+
+        marker_7d130aae16ef881b7e5829d4352b6b46.bindPopup(popup_69422a2939a1dc2f0f53935d5ed5d42c)
+        ;
+
+        
+    
+    
+                marker_7d130aae16ef881b7e5829d4352b6b46.setIcon(icon_bf78a2acf2bcc58342dc3cb828a659bc);
+            
+    
+            var marker_4fca0c5d59e24ed6be70abba8ec08ef4 = L.marker(
+                [42.4520648, -71.3752422],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_9bdf0ee15e5cee8a28ec506663f858ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5aa0eacf6f2f05540fce6b451b790998 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0df7e25aa691b9e065335dc1511cc2d8 = $(`<div id="html_0df7e25aa691b9e065335dc1511cc2d8" style="width: 100.0%; height: 100.0%;"><b>Emerson Hospital</b><br>133 Old Road To 9 Acre Cor, Concord, MA 01742<br><br><b>Surgeons:</b><br>Hugh Auchincloss, MD, Uma Sachdeva, MD</div>`)[0];
+                popup_5aa0eacf6f2f05540fce6b451b790998.setContent(html_0df7e25aa691b9e065335dc1511cc2d8);
+            
+        
+
+        marker_4fca0c5d59e24ed6be70abba8ec08ef4.bindPopup(popup_5aa0eacf6f2f05540fce6b451b790998)
+        ;
+
+        
+    
+    
+                marker_4fca0c5d59e24ed6be70abba8ec08ef4.setIcon(icon_9bdf0ee15e5cee8a28ec506663f858ad);
+            
+    
+            var marker_7c883fb689816ab4fb67df596f878044 = L.marker(
+                [42.9825444, -71.4348347],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_51a10b1827d2350b571ab9d270d68272 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c6b6f41a6f6f0ff2aed0d6b399a14cd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b16a15e11fd54dcda9afeb9d5ad23114 = $(`<div id="html_b16a15e11fd54dcda9afeb9d5ad23114" style="width: 100.0%; height: 100.0%;"><b>Elliot Hospital</b><br>9 Elliot Way, Manchester, NH 03103<br><br><b>Surgeons:</b><br>Yolonda Colson, MD</div>`)[0];
+                popup_0c6b6f41a6f6f0ff2aed0d6b399a14cd.setContent(html_b16a15e11fd54dcda9afeb9d5ad23114);
+            
+        
+
+        marker_7c883fb689816ab4fb67df596f878044.bindPopup(popup_0c6b6f41a6f6f0ff2aed0d6b399a14cd)
+        ;
+
+        
+    
+    
+                marker_7c883fb689816ab4fb67df596f878044.setIcon(icon_51a10b1827d2350b571ab9d270d68272);
+            
+    
+            var marker_2fcc23db38283edb437ee530a034eb19 = L.marker(
+                [42.7565528, -71.4621622],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_ddf3f778c03d7c615169f251147d5c76 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2169fdb8f44018fc5ab6f007a0d8feba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3c5ee4ca4d6f05c0a7df8040576a943a = $(`<div id="html_3c5ee4ca4d6f05c0a7df8040576a943a" style="width: 100.0%; height: 100.0%;"><b>Southern New Hampshire Medical Center</b><br>8 Prospect St, Nashua, NH 03060<br><br><b>Surgeons:</b><br>Jeff Yang, MD</div>`)[0];
+                popup_2169fdb8f44018fc5ab6f007a0d8feba.setContent(html_3c5ee4ca4d6f05c0a7df8040576a943a);
+            
+        
+
+        marker_2fcc23db38283edb437ee530a034eb19.bindPopup(popup_2169fdb8f44018fc5ab6f007a0d8feba)
+        ;
+
+        
+    
+    
+                marker_2fcc23db38283edb437ee530a034eb19.setIcon(icon_ddf3f778c03d7c615169f251147d5c76);
+            
+    
+            var marker_dcc8074bec708d5aafb5ca5611be8ab0 = L.marker(
+                [42.3632118, -71.068794],
+                {
+}
+            ).addTo(map_9d282c5625bb724330be3ead2be360ae);
+        
+    
+            var icon_2b593e0f6a65477812377b403db2d3a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae708e6b8845ff21329535fe0eb82c3c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_472ae987e367985b89d75f37013083f1 = $(`<div id="html_472ae987e367985b89d75f37013083f1" style="width: 100.0%; height: 100.0%;"><b>Mass General Hospital</b><br>55 Fruit Street, Boston MA<br><br><b>Surgeons:</b><br>MGH Thoracic Faculty</div>`)[0];
+                popup_ae708e6b8845ff21329535fe0eb82c3c.setContent(html_472ae987e367985b89d75f37013083f1);
+            
+        
+
+        marker_dcc8074bec708d5aafb5ca5611be8ab0.bindPopup(popup_ae708e6b8845ff21329535fe0eb82c3c)
+        ;
+
+        
+    
+    
+                marker_dcc8074bec708d5aafb5ca5611be8ab0.setIcon(icon_2b593e0f6a65477812377b403db2d3a0);
+            
+</script>
+</html>
